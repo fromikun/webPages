@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slide-down Animation for Multiple Elements</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button onclick="slideDownElements()">Slide Down Elements</button>
+    <div class="element hidden">Element 1 with slide-down animation</div>
+    <div class="element hidden">Element 2 with slide-down animation</div>
+    <div class="element hidden">Element 3 with slide-down animation</div>
+    <script>
+      function slideDownElements() {
+        const elements = document.querySelectorAll(".element");
+        elements.forEach((element) => {
+          element.classList.toggle("hidden");
+          element.classList.toggle("slide-down");
+        });
+      }
+    </script>
+  </body>
+</html>
