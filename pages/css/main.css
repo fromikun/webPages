@@ -1,0 +1,40 @@
+/* 上 */
+.head {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgba(156, 255, 106, 0.75);
+  position: absolute;
+  font-size: 8vh;
+}
+/* 主体内容 */
+.body {
+  width: 70vw;
+  height: 50vh;
+  margin: 20vh 0 20vh 0;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+.end {
+  width: 100vw;
+  height: 10vh;
+}
+
+.zhengWen {
+  font-size: 18px;
+}
+
+.lieBiao {
+  font-size: 35px;
+  width: 150px;
+  height: 100px;
+  border: 1px solid wheat;
+  color: rgb(49, 187, 141);
+}
+
+@media screen and (min-width: 600px) {
+  .lieBiao {
+    font-size: 75px;
+    width: 250px;
+    height: 150px;
+  }
+}

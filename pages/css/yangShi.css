@@ -1,12 +1,21 @@
+/* body默认属性 */
+body {
+  display: flex;
+  margin: 0;
+  font-family: "myFont", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* 滚动条样式 */
 ::-webkit-scrollbar {
   display: none;
 }
 
-/* 字体 */
+/* 默认字体 */
 @font-face {
-  font-family: "font";
-  src: url("../../fonts/yyys.ttf");
+  font-family: "myFont";
+  src: url("../../fonts/maoti.TTF");
 }
 
 /* 滑动 */
@@ -20,4 +29,31 @@
   100% {
     opacity: 1;
   }
+}
+
+/* 工具合集 */
+/* flex */
+.flex {
+  display: flex;
+}
+
+/* 禁选文字 */
+.noText {
+  user-select: none;
+}
+
+/* 居中for flex */
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* 竖向排列for flex|注译：flex默认是横着的 */
+.shuXiang {
+  flex-direction: column;
+}
+
+/* 隐藏选项 */
+.none {
+  display: none;
 }

@@ -1,11 +1,4 @@
 /* 上级 */
-/* body默认属性 */
-body {
-  display: flex;
-  margin: 0;
-  background: linear-gradient(45deg, #898b75, #ffffff);
-  align-items: flex-start;
-}
 
 /* 中级 */
 /* 左边 */
@@ -58,38 +51,4 @@ body {
 /* 右盒子 */
 .rightBox {
   color: white;
-}
-
-/* 工具合集 */
-/* flex */
-.flex {
-  display: flex;
-}
-
-/* 禁选文字 */
-.noText {
-  user-select: none;
-}
-
-/* 居中for flex */
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
-/* 竖向排列for flex|注译：flex默认是横着的 */
-.shuXiang {
-  flex-direction: column;
-}
-
-/* 隐藏选项 */
-.none {
-  display: none;
-}
-
-/* 动画 */
-.dongHua {
-  max-height: 1px;
-  transition: max-height 0.5s ease;
-  overflow: hidden;
 }
