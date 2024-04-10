@@ -38,7 +38,7 @@ elements.suaiTui.addEventListener("click", function () {
   toggleElements("back04");
 });
 
-// 组2的样式规则
+// 图片切换
 // 获取所有更改图像源的按钮
 const buttons = document.querySelectorAll(".src-button");
 const image = document.getElementById("img-1");
