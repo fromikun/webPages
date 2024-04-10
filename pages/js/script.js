@@ -37,3 +37,17 @@ elements.chengShu.addEventListener("click", function () {
 elements.suaiTui.addEventListener("click", function () {
   toggleElements("back04");
 });
+
+// 组2的样式规则
+// 获取所有更改图像源的按钮
+const buttons = document.querySelectorAll(".src-button");
+const image = document.getElementById("img-1");
+
+// 为每个按钮添加点击事件监听器
+buttons.forEach((button) => {
+  button.addEventListener("click", function () {
+    // 获取按钮的data-img-src属性并更新图像的src属性
+    const newSrc = this.getAttribute("img-src");
+    image.src = newSrc;
+  });
+});
